@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll{
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+@media all and (max-width:300px){
+    :root{
+      font-size: 12px;
+    }
+    .log>img{
+        height: 24px;
+    }
+}
+
+.text-glow-red {
+  text-shadow: 0px 0px 10px rgb(255, 0, 0);
+}
+
+.text-glow-green {
+  text-shadow: 3px 5px 7px rgb(0, 0, 0);
+}
