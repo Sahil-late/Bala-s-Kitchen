@@ -8,6 +8,8 @@ import { secContext } from './context/contexApi'
 
 const App = ({ className }) => {
   const {scroll} = useContext(secContext)
+  console.log(scroll);
+  
   const content = useRef(null);
   const taste = useRef(null);
   
@@ -20,10 +22,10 @@ const App = ({ className }) => {
 
   useEffect(()=>{
     if(scroll === 'Recipies'){
-      content.current?.scrollIntoView({behavior: "smooth"})
+      taste.current?.scrollIntoView({behavior: "smooth"})
     }
     if(scroll === 'Information'){
-      taste.current?.scrollIntoView({behavior: "smooth"})
+      content.current?.scrollIntoView({behavior: "smooth"})
     }
   },[scroll])
 
