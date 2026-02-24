@@ -3,7 +3,7 @@ import React from 'react'
 function NewInfo() {
     return (
         <div className="info w-[90%]  my-5  mx-auto   relative rounded-2xl shadow-[_0px_0px_5px_3px_black] ">
-            <div className="bg w-full h-full bg-[url('bg/info.svg')] bg-cover bg-center bg-no-repeat  rounded-2xl">
+            <div className="bg w-full h-full bg-[url('/bg/info.svg')] bg-cover bg-center bg-no-repeat  rounded-2xl">
                 <div className="logo w-[70%] sm:w-[45%] mx-auto flex justify-center items-center  rounded-t-2xl m-4 pt-4">
                     <img src="infoLogo.png" alt="logo" />
                 </div>

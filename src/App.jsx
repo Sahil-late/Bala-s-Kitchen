@@ -32,7 +32,7 @@ const App = ({ className }) => {
     <>
       <div className='h-dvh w-dvw bg-black relative'>
         <Navbar className={`${className} text-blue-500 fixed top-8 border border-amber-100 rounded-4xl z-10`} />
-        <div className="bg bg-[url('bg/download.jpg')] h-full w-full bg-no-repeat bg-center bg-cover">
+        <div className="bg bg-[url('/bg/download.jpg')] h-full w-full bg-no-repeat bg-center bg-cover">
           <div className="logo absolute top-0 left-0 h-full w-full flex justify-center items-center z-5 ">
             <img className='w-[95%] sm:w-[50%]' src="pageLogo.png" alt="" />
           </div>
