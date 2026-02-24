@@ -7,10 +7,7 @@ import { secContext } from './context/contexApi'
 
 
 const App = ({ className }) => {
-  
-   const {scroll} = useContext(secContext)
-  
-  
+  const {scroll} = useContext(secContext)
   const content = useRef(null);
   const taste = useRef(null);
   
