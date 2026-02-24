@@ -25,8 +25,8 @@ function NewInfo() {
                     टीप: कृपया ऑर्डर करण्यापूर्वी संपर्क करा, जेणेकरून आम्ही तुमच्यासाठी ताजेतवाने जेवण तयार करू शकू
                 </div>
                 <div className="address  w-full flex justify-between px-2 bg-amber-50">
-                    <span >पत्ता: 123, खान्देशी मार्ग, पुणे</span>
-                    <span >संपर्क: 9876543210</span>
+                    <span >पत्ता: ब्राम्हणआळी, शहापूर</span>
+                    <span >संपर्क: 8767685939</span>
                 </div>
             </div>
 
